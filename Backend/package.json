@@ -1,5 +1,9 @@
 {
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
+    "start": "node server.ts",
     "dev": "ts-node-dev --respawn --transpile-only --files src/server.ts"
   },
   "dependencies": {
